@@ -1,0 +1,21 @@
+.button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 30px;
+    cursor: pointer;
+    transition: background 0.25s;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.accent:hover {
+    background: #1916ab;
+}
+.accent{
+    background: #312EB5;
+}
+
+@media (prefers-color-scheme: light) {
+    button {
+        background-color: #f9f9f9;
+    }
+}
